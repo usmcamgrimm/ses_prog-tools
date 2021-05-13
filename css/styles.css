@@ -24,3 +24,14 @@ SEC Light Grey #d78d6
 SEC Mid Grey #9c9ea0
 SEC Dark Grey #53565a
 */
+
+body {
+  background-color: #031f30;
+}
+hr.line {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+.navLogo img {
+  width: 250px;
+}
