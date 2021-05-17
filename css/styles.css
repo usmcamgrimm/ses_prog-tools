@@ -20,19 +20,35 @@ SEC Dark Purple #26224c
 
 SECONDARY (WHITE/GREY):
 SEC White #ffffff
-SEC Light Grey #d78d6
+SEC Light Grey #d7d8d6
 SEC Mid Grey #9c9ea0
 SEC Dark Grey #53565a
 */
 
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 body {
   background-color: #031f30;
 }
-hr.line {
-  color: #ffffff;
-  border-bottom: 2px solid #ffffff;
+#nav {
+  border-bottom: 1px solid rgba(255,255,255,.2);
 }
 .navLogo img {
   width: 250px;
+}
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.NavList {
+  display: flex;
+  justify-content: space-between;
+}
+.NavItems {
+  display: flex;
+  list-style: none;
 }
