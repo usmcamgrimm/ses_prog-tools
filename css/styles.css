@@ -29,6 +29,7 @@ SEC Dark Grey #53565a
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 body {
   background-color: #031f30;
@@ -56,4 +57,5 @@ body {
 .NavItems a {
   color: #ffffff;
   text-decoration: none;
+  font-size: 1.25rem;
 }
