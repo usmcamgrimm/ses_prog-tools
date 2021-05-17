@@ -42,13 +42,18 @@ body {
 .navbar {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
   align-items: center;
 }
-.NavList {
+.NavItems{
   display: flex;
-  justify-content: space-between;
-}
-.NavItems {
-  display: flex;
+  margin-right: 3rem;
   list-style: none;
+}
+.NavItems li {
+  padding-right: 1rem;
+}
+.NavItems a {
+  color: #ffffff;
+  text-decoration: none;
 }
