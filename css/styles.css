@@ -24,12 +24,15 @@ SEC Light Grey #d7d8d6
 SEC Mid Grey #9c9ea0
 SEC Dark Grey #53565a
 */
-
+@font-face {
+  font-family: 'Securitas';
+  src: url('../resources/SecuritasProOffice-Regular.ttf') format('truetype');
+}
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Securitas', Arial, sans-serif;
 }
 body {
   background-color: #031f30;
