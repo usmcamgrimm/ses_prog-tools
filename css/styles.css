@@ -85,3 +85,6 @@ body {
   text-align: center;
   font-size: 3rem;
 }
+li a:hover {
+  border-bottom: 2px solid #fc273f;
+}
