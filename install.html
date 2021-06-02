@@ -14,10 +14,8 @@
   <!-- FAST Components -->
   <script type="module" src="https://unpkg.com/@microsoft/fast-components"></script>
   <!-- FAST Elements -->
-  <script type="module">
-    import { FASTElement } from "https://unpkg.com/@microsoft/fast-element";
-
-  </script>
+  <script type="module" import { FASTElement } from "https://unpkg.com/@microsoft/fast-element"></script>
+  <script type="module" import ./js/accentPalette.js;></script>
 
 </head>
 <body>
@@ -45,7 +43,7 @@
 
   <fast-design-system-provider use-defaults>
     <section id="site">
-      <fast-text-field placeholder="CS Number"></fast-text-field>
+      <fast-text-field attribute="accent" placeholder="CS Number"></fast-text-field>
       <fast-text-field placeholder="Name"></fast-text-field>
     </section>
   </fast-design-system-provider>
