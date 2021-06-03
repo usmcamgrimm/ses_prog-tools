@@ -43,12 +43,13 @@
 
   <fast-design-system-provider use-defaults>
     <section id="site-info">
-      <fast-dialog>
-        <div class="dialog-box">
-          <fast-text-field attribute="accent" placeholder="CS Number"></fast-text-field>
-          <fast-text-field placeholder="Name"></fast-text-field>
-            <fast-button>Button</fast-button>
-        </div>
+      <fast-dialog modal trap-focus>
+        <fast-text-field placeholder="CS Number" required maxlength="8"></fast-text-field>
+        <fast-radio-group><label style="color: var(--neutral-foreground-rest);" slot="label">System Type</label>
+          <fast-radio>Intrusion</fast-radio>
+          <fast-radio>Fire</fast-radio>
+          <fast-radio>Combination</fast-radio>
+      </fast-radio-group>
       </fast-dialog>
     </section>
   </fast-design-system-provider>
