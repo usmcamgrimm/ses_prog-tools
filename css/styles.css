@@ -97,3 +97,7 @@ h1 {
   font-family: Securitas;
   color: #ffffff;
 }
+.dialog-box {
+  background-color: #031f30;
+  padding: 0 10px 10px;
+}
