@@ -33,8 +33,6 @@ SEC Dark Grey #53565a
   padding: 0;
   margin: 0;
   font-family: 'Securitas', Arial, sans-serif;
-}
-body {
   background-color: #031f30;
 }
 #nav {
@@ -100,4 +98,12 @@ h1 {
 .dialog-box {
   background-color: #031f30;
   padding: 0 10px 10px;
+}
+.line-items li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.list {
+  display: flex;
 }
